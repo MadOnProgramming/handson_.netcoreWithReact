@@ -1,0 +1,11 @@
+D:\madhan\learnings\DotNetCore_With_React\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\madhan\learnings\DotNetCore_With_React\Domain\bin\Debug\net7.0\Domain.dll
+D:\madhan\learnings\DotNetCore_With_React\Domain\bin\Debug\net7.0\Domain.pdb
+D:\madhan\learnings\DotNetCore_With_React\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\madhan\learnings\DotNetCore_With_React\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\madhan\learnings\DotNetCore_With_React\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\madhan\learnings\DotNetCore_With_React\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\madhan\learnings\DotNetCore_With_React\Domain\obj\Debug\net7.0\Domain.dll
+D:\madhan\learnings\DotNetCore_With_React\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\madhan\learnings\DotNetCore_With_React\Domain\obj\Debug\net7.0\Domain.pdb
+D:\madhan\learnings\DotNetCore_With_React\Domain\obj\Debug\net7.0\ref\Domain.dll

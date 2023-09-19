@@ -1,0 +1,15 @@
+D:\madhan\learnings\DotNetCore_With_React\Persistence\bin\Debug\net7.0\Persistence.deps.json
+D:\madhan\learnings\DotNetCore_With_React\Persistence\bin\Debug\net7.0\Persistence.dll
+D:\madhan\learnings\DotNetCore_With_React\Persistence\bin\Debug\net7.0\Persistence.pdb
+D:\madhan\learnings\DotNetCore_With_React\Persistence\bin\Debug\net7.0\Domain.dll
+D:\madhan\learnings\DotNetCore_With_React\Persistence\bin\Debug\net7.0\Domain.pdb
+D:\madhan\learnings\DotNetCore_With_React\Persistence\obj\Debug\net7.0\Persistence.csproj.AssemblyReference.cache
+D:\madhan\learnings\DotNetCore_With_React\Persistence\obj\Debug\net7.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\madhan\learnings\DotNetCore_With_React\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfoInputs.cache
+D:\madhan\learnings\DotNetCore_With_React\Persistence\obj\Debug\net7.0\Persistence.AssemblyInfo.cs
+D:\madhan\learnings\DotNetCore_With_React\Persistence\obj\Debug\net7.0\Persistence.csproj.CoreCompileInputs.cache
+D:\madhan\learnings\DotNetCore_With_React\Persistence\obj\Debug\net7.0\Persistence.csproj.CopyComplete
+D:\madhan\learnings\DotNetCore_With_React\Persistence\obj\Debug\net7.0\Persistence.dll
+D:\madhan\learnings\DotNetCore_With_React\Persistence\obj\Debug\net7.0\refint\Persistence.dll
+D:\madhan\learnings\DotNetCore_With_React\Persistence\obj\Debug\net7.0\Persistence.pdb
+D:\madhan\learnings\DotNetCore_With_React\Persistence\obj\Debug\net7.0\ref\Persistence.dll
