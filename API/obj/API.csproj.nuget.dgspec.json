@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Madhan\\Learnings\\DotNetCore_With_React\\API\\API.csproj": {}
+    "D:\\Madhan\\Learnings\\DotNetCore_With_React\\api\\API.csproj": {}
   },
   "projects": {
-    "D:\\Madhan\\Learnings\\DotNetCore_With_React\\API\\API.csproj": {
+    "D:\\Madhan\\Learnings\\DotNetCore_With_React\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\API\\API.csproj",
+        "projectUniqueName": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\API\\API.csproj",
+        "projectPath": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\api\\API.csproj",
         "packagesPath": "C:\\Users\\Madha\\.nuget\\packages\\",
-        "outputPath": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\API\\obj\\",
+        "outputPath": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Madhan\\Learnings\\DotNetCore_With_React\\Application\\Application.csproj": {
-                "projectPath": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\Application\\Application.csproj"
+              "D:\\Madhan\\Learnings\\DotNetCore_With_React\\application\\Application.csproj": {
+                "projectPath": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\application\\Application.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "D:\\Madhan\\Learnings\\DotNetCore_With_React\\Application\\Application.csproj": {
+    "D:\\Madhan\\Learnings\\DotNetCore_With_React\\application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\Application\\Application.csproj",
+        "projectPath": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\application\\Application.csproj",
         "packagesPath": "C:\\Users\\Madha\\.nuget\\packages\\",
-        "outputPath": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\Application\\obj\\",
+        "outputPath": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -114,8 +114,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Madhan\\Learnings\\DotNetCore_With_React\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\Domain\\Domain.csproj"
+              "D:\\Madhan\\Learnings\\DotNetCore_With_React\\domain\\Domain.csproj": {
+                "projectPath": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\domain\\Domain.csproj"
               },
               "d:\\Madhan\\Learnings\\DotNetCore_With_React\\Persistence\\Persistence.csproj": {
                 "projectPath": "d:\\Madhan\\Learnings\\DotNetCore_With_React\\Persistence\\Persistence.csproj"
@@ -152,14 +152,14 @@
         }
       }
     },
-    "D:\\Madhan\\Learnings\\DotNetCore_With_React\\Domain\\Domain.csproj": {
+    "D:\\Madhan\\Learnings\\DotNetCore_With_React\\domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Madha\\.nuget\\packages\\",
-        "outputPath": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\Domain\\obj\\",
+        "outputPath": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -239,8 +239,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Madhan\\Learnings\\DotNetCore_With_React\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\Domain\\Domain.csproj"
+              "D:\\Madhan\\Learnings\\DotNetCore_With_React\\domain\\Domain.csproj": {
+                "projectPath": "D:\\Madhan\\Learnings\\DotNetCore_With_React\\domain\\Domain.csproj"
               }
             }
           }
