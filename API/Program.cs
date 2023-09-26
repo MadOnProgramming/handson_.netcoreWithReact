@@ -9,8 +9,20 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<DataContext>(opt => {
+builder.Services.AddDbContext<DataContext>(opt =>
+{
     opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
+
+//register service for applying CORS
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("MyCorsPolicy", bui =>
+    {
+        bui.AllowAnyHeader()
+            .AllowAnyMethod()
+            .WithOrigins("http://localhost:5001");
+    });
 });
 
 #endregion
@@ -18,6 +30,7 @@ builder.Services.AddDbContext<DataContext>(opt => {
 var app = builder.Build();
 
 #region Configuring middleware
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -25,6 +38,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseHttpsRedirection();
+
+//add CORS middleware
+app.UseCors("MyCorsPolicy");
+
 app.UseAuthorization();
 app.MapControllers();
 #endregion
@@ -38,10 +55,10 @@ try
     await context.Database.MigrateAsync();
     await Seed.SeedData(context);
 }
-catch(Exception ex)
+catch (Exception ex)
 {
     var logger = services.GetRequiredService<ILogger<Program>>();
-    logger.LogError(ex,"An error occured during database migration");
+    logger.LogError(ex, "An error occured during database migration");
 }
 #endregion
 

@@ -8,23 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Madha\\.nuget\\packages\\": {},
+    "C:\\Users\\Madh175&D21\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\madhan\\learnings\\DotNetCore_With_React\\Domain\\Domain.csproj",
+      "projectUniqueName": "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\madhan\\learnings\\DotNetCore_With_React\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\Madha\\.nuget\\packages\\",
-      "outputPath": "D:\\madhan\\learnings\\DotNetCore_With_React\\Domain\\obj\\",
+      "projectPath": "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\Madh175&D21\\.nuget\\packages\\",
+      "outputPath": "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Madha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "d:\\11133\\NuGet.Config",
+        "C:\\Users\\Madh175&D21\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -32,7 +33,7 @@
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -66,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
