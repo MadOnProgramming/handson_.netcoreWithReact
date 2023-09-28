@@ -148,3 +148,5 @@ D:\11133\Learnings\DotNetCoreWithReact\handson_.netcoreWithReact\API\obj\Debug\n
 D:\11133\Learnings\DotNetCoreWithReact\handson_.netcoreWithReact\API\obj\Debug\net7.0\API.pdb
 d:\11133\Learnings\DotNetCoreWithReact\handson_.netcoreWithReact\api\obj\Debug\net7.0\API.genruntimeconfig.cache
 d:\11133\Learnings\DotNetCoreWithReact\handson_.netcoreWithReact\api\obj\Debug\net7.0\ref\API.dll
+D:\11133\Learnings\DotNetCoreWithReact\handson_.netcoreWithReact\API\bin\Debug\net7.0\MediatR.dll
+D:\11133\Learnings\DotNetCoreWithReact\handson_.netcoreWithReact\API\bin\Debug\net7.0\MediatR.Contracts.dll

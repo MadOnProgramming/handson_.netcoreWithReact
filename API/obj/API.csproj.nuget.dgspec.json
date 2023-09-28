@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\API\\API.csproj": {}
+    "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\api\\API.csproj": {}
   },
   "projects": {
-    "D:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\API\\API.csproj": {
+    "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\API\\API.csproj",
+        "projectUniqueName": "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\API\\API.csproj",
+        "projectPath": "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\api\\API.csproj",
         "packagesPath": "C:\\Users\\Madh175&D21\\.nuget\\packages\\",
-        "outputPath": "D:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\API\\obj\\",
+        "outputPath": "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "D:\\11133\\NuGet.Config",
+          "d:\\11133\\NuGet.Config",
           "C:\\Users\\Madh175&D21\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -34,8 +34,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\Application\\Application.csproj": {
-                "projectPath": "D:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\Application\\Application.csproj"
+              "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\application\\Application.csproj": {
+                "projectPath": "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\application\\Application.csproj"
               }
             }
           }
@@ -88,20 +88,20 @@
         }
       }
     },
-    "D:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\Application\\Application.csproj": {
+    "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\Application\\Application.csproj",
+        "projectUniqueName": "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\Application\\Application.csproj",
+        "projectPath": "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\application\\Application.csproj",
         "packagesPath": "C:\\Users\\Madh175&D21\\.nuget\\packages\\",
-        "outputPath": "D:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\Application\\obj\\",
+        "outputPath": "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "D:\\11133\\NuGet.Config",
+          "d:\\11133\\NuGet.Config",
           "C:\\Users\\Madh175&D21\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -117,8 +117,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\Domain\\Domain.csproj"
+              "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\domain\\Domain.csproj": {
+                "projectPath": "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\domain\\Domain.csproj"
               },
               "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\Persistence\\Persistence.csproj": {
                 "projectPath": "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\Persistence\\Persistence.csproj"
@@ -135,6 +135,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -155,20 +161,20 @@
         }
       }
     },
-    "D:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\Domain\\Domain.csproj": {
+    "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\Domain\\Domain.csproj",
+        "projectUniqueName": "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\Domain\\Domain.csproj",
+        "projectPath": "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Madh175&D21\\.nuget\\packages\\",
-        "outputPath": "D:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\Domain\\obj\\",
+        "outputPath": "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "D:\\11133\\NuGet.Config",
+          "d:\\11133\\NuGet.Config",
           "C:\\Users\\Madh175&D21\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -244,8 +250,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\Domain\\Domain.csproj"
+              "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\domain\\Domain.csproj": {
+                "projectPath": "d:\\11133\\Learnings\\DotNetCoreWithReact\\handson_.netcoreWithReact\\domain\\Domain.csproj"
               }
             }
           }

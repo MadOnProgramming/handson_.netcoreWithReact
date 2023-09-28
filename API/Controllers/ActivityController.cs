@@ -1,31 +1,79 @@
+using Application.Activities;
 using Domain;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Persistence;
 
 namespace API.Controllers
 {
     public class ActivityController : BaseApiController
     {
-        public DataContext _context { get; }
-        public ActivityController(DataContext context)
-        {
-            _context = context;
-            
-        }   
+        /// <summary>
+        /// To list all activities
+        /// </summary>
+        /// <returns></returns>
 
         [HttpGet]
-        [Route("all")]
         public async Task<ActionResult<List<Activity>>> GetActivities()
         {
-            return await _context.Activities.ToListAsync();
+            return await Mediator.Send(new List.Query());
         }
 
+        /// <summary>
+        /// To get single activity
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet]
         [Route("{id}")]
         public async Task<ActionResult<Activity>> GetActivity(Guid id)
         {
-            return await _context.Activities.FindAsync(id);
+            return await Mediator.Send(new Details.Query { Id = id });
+        }
+
+        /// <summary>
+        /// Creates an activity
+        /// </summary>
+        /// <param name="activity"></param>
+        /// <returns></returns>
+        [HttpPost]
+        [Route("Create")]
+        public async Task<IActionResult> Create(Activity activity)
+        {
+            await Mediator.Send(new Create.Command { Activity = activity });
+
+            return Ok();
+        }
+
+        /// <summary>
+        /// Update an activity
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="activity"></param>
+        /// <returns></returns>
+        [HttpPut]
+        [Route("Update")]
+        public async Task<IActionResult> Update(Guid id, Activity activity)
+        {
+            await Mediator.Send(
+                new Update.Command
+                {
+                    Id = id,
+                    Activity = activity
+                });
+            return Ok();
+        }
+
+        /// <summary>
+        /// Delete an activity
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpDelete]
+        [Route("Delete/{id}")]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            await Mediator.Send(new Delete.Command { Id = id });
+            return Ok();
         }
     }
 }

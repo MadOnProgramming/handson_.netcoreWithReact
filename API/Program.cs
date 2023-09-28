@@ -1,4 +1,4 @@
-
+using Application.Activities;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 
@@ -9,8 +9,11 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//register service for db context
 builder.Services.AddDbContext<DataContext>(opt =>
 {
+    //database configuration
     opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
@@ -24,9 +27,14 @@ builder.Services.AddCors(opt =>
             .WithOrigins("http://localhost:5001");
     });
 });
+//register MediatR service
+builder.Services.AddMediatR(conf =>
+{
+    //we need to say where it can find handlers from
+    conf.RegisterServicesFromAssembly(typeof(List.Handler).Assembly);
+});
 
 #endregion
-
 var app = builder.Build();
 
 #region Configuring middleware
