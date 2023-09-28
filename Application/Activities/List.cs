@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Domain;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -28,7 +24,7 @@ namespace Application.Activities
             //handle method
             public async Task<List<Activity>> Handle(Query request, CancellationToken cancellationToken)
             {
-                return await _context.Activities.ToListAsync<Activity>();
+                return await _context.Activities.ToListAsync<Activity>(cancellationToken: cancellationToken);
             }
         }
     }

@@ -13,9 +13,9 @@ namespace API.Controllers
         /// <returns></returns>
 
         [HttpGet]
-        public async Task<ActionResult<List<Activity>>> GetActivities()
+        public async Task<ActionResult<List<Activity>>> GetActivities(CancellationToken ct)
         {
-            return await Mediator.Send(new List.Query());
+            return await Mediator.Send(new List.Query(),ct);
         }
 
         /// <summary>
@@ -36,7 +36,6 @@ namespace API.Controllers
         /// <param name="activity"></param>
         /// <returns></returns>
         [HttpPost]
-        [Route("Create")]
         public async Task<IActionResult> Create(Activity activity)
         {
             await Mediator.Send(new Create.Command { Activity = activity });
@@ -51,13 +50,11 @@ namespace API.Controllers
         /// <param name="activity"></param>
         /// <returns></returns>
         [HttpPut]
-        [Route("Update")]
-        public async Task<IActionResult> Update(Guid id, Activity activity)
+        public async Task<IActionResult> Update(Activity activity)
         {
             await Mediator.Send(
                 new Update.Command
                 {
-                    Id = id,
                     Activity = activity
                 });
             return Ok();
@@ -69,7 +66,7 @@ namespace API.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpDelete]
-        [Route("Delete/{id}")]
+        [Route("{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {
             await Mediator.Send(new Delete.Command { Id = id });

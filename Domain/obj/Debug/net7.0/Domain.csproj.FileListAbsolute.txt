@@ -21,3 +21,14 @@ D:\11133\Learnings\DotNetCoreWithReact\handson_.netcoreWithReact\Domain\obj\Debu
 D:\11133\Learnings\DotNetCoreWithReact\handson_.netcoreWithReact\Domain\obj\Debug\net7.0\refint\Domain.dll
 D:\11133\Learnings\DotNetCoreWithReact\handson_.netcoreWithReact\Domain\obj\Debug\net7.0\Domain.pdb
 D:\11133\Learnings\DotNetCoreWithReact\handson_.netcoreWithReact\Domain\obj\Debug\net7.0\ref\Domain.dll
+d:\Madhan\Learnings\handson_.netcoreWithReact\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\Madhan\Learnings\handson_.netcoreWithReact\Domain\bin\Debug\net7.0\Domain.dll
+D:\Madhan\Learnings\handson_.netcoreWithReact\Domain\bin\Debug\net7.0\Domain.pdb
+D:\Madhan\Learnings\handson_.netcoreWithReact\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Madhan\Learnings\handson_.netcoreWithReact\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\Madhan\Learnings\handson_.netcoreWithReact\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\Madhan\Learnings\handson_.netcoreWithReact\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\Madhan\Learnings\handson_.netcoreWithReact\Domain\obj\Debug\net7.0\Domain.dll
+D:\Madhan\Learnings\handson_.netcoreWithReact\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\Madhan\Learnings\handson_.netcoreWithReact\Domain\obj\Debug\net7.0\Domain.pdb
+d:\Madhan\Learnings\handson_.netcoreWithReact\Domain\obj\Debug\net7.0\ref\Domain.dll
