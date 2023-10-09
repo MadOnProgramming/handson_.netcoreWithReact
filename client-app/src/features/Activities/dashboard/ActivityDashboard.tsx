@@ -3,13 +3,13 @@ import ActivityList from "./ActivityList";
 import ActivityDetails from "../details/ActivityDetails";
 import ActivityForm from "../forms/ActivityForm";
 import { Activity } from "../../../app/models/Activity";
-import { useState } from "react";
 
 interface Props
 {
     activities: Activity[];
     selectedActivity: Activity | undefined;
     editMode:boolean;
+    submitting:boolean;
     handleSelectActivity: (id:string)=>void;
     handleCancelActivity:()=>void;
     handleSetEditMode:(value:boolean)=>void;
@@ -22,6 +22,7 @@ export default function ActivityDashboard(
         activities,
         selectedActivity,
         editMode,
+        submitting,
         handleSelectActivity,
         handleCancelActivity,        
         handleSetEditMode,
@@ -41,7 +42,7 @@ export default function ActivityDashboard(
                         selectedActivity={selectedActivity} 
                         handleCancelActivity={handleCancelActivity}
                         handleSetEditMode={handleSetEditMode}/>} 
-                    {editMode && <ActivityForm activity={selectedActivity} handleSetEditMode={handleSetEditMode} handleCreateOrEdit = {handleCreateOrEdit}/>}                    
+                    {editMode && <ActivityForm activity={selectedActivity} handleSetEditMode={handleSetEditMode} handleCreateOrEdit = {handleCreateOrEdit} submitting={submitting}/>}                    
                 </Grid.Column>                
             </Grid>
     )
